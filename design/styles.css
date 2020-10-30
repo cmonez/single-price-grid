@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 475px;
+  height: 450px;
   transform: translate(-50%, -50%);
   font-family: 'Karla', sans-serif;
   font-size: 16px;
@@ -76,4 +76,23 @@ button {
   border: none;
   color: white;
   /* background: none; */
+}
+
+@media (max-width: 346px) {
+  .container {
+    /* display: block; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .box {
+    /* background: red; */
+    min-width: 90%;
+
+    /* height: 40px; */
+  }
 }
