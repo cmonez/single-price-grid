@@ -53,3 +53,24 @@ p.why-us-paragraphs {
   /* To keep padding within dimension */
   box-sizing: border-box;
 }
+
+.dollar-amount {
+  font-size: 36px;
+}
+
+.per-amount {
+  vertical-align: text-top;
+}
+
+button {
+  margin-top: 5%;
+  width: 80%;
+  background-color: hsl(71, 73%, 54%);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 5px;
+  /* padding: 0; */
+  border: none;
+  color: white;
+  /* background: none; */
+}
