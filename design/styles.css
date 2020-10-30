@@ -49,5 +49,7 @@ p.why-us-paragraphs {
   line-height: 7px;
 }
 .box {
-  /* padding-left: 5%; */
+  padding-left: 5%;
+  /* To keep padding within dimension */
+  box-sizing: border-box;
 }
