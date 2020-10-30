@@ -35,12 +35,14 @@ h2 {
   background-color: hsl(179, 62%, 43%);
   height: 50%;
   width: 50%;
+  color: white;
 }
 
 .why-us-box {
   background-color: hsl(179, 57%, 58%);
   height: 50%;
   width: 50%;
+  color: white;
 }
 
 p.why-us-paragraphs {
